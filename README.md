@@ -31,7 +31,7 @@ pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 ```bash
 video_path = '/kaggle/input/ai-video/ai video.mp4'
 ```
-2. Run the script:
+2. Run the file:
 ```bash
 python main.py
 ```
