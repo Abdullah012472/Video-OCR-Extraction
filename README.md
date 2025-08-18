@@ -21,15 +21,15 @@ git clone https://github.com/your-username/video-ocr-extraction.git
    pip install -r requirements.txt
    ```
 
-4. **Install Tesseract OCR (Linux / Kaggle / Colab)**
+3. **Install Tesseract OCR (Linux / Kaggle / Colab)**
+   ```bash
    sudo apt-get update
-<br>
    sudo apt-get install -y tesseract-ocr
-
+   ```
 The script already points to the correct path for Linux:
-
+```bash
 pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
-<br>
+```
 ▶️ Usage
 1. Place your video in the input directory and update the path in main.py:
 
