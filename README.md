@@ -5,23 +5,26 @@ Extract text from video frames using Tesseract OCR and OpenCV
 # 🎥 Video OCR Text Extraction
 
 This project extracts text from video frames using **OpenCV** and **Tesseract OCR**.  
-The script processes a video file frame by frame, applies preprocessing (grayscale + thresholding), and saves all extracted text to a file.
+The script processes a video file frame by frame, applies preprocessing (grayscale + thresholding) and saves all extracted text to a file.
 
 
 
 ## ⚙️ Installation
 
 1. **Clone the repository**
-
+<br>
 git clone https://github.com/your-username/video-ocr-extraction.git
+<br>
 cd video-ocr-extraction
 
 2. **Install dependencies**
-
+<br>
 pip install -r requirements.txt
 
 3. **Install Tesseract OCR (Linux / Kaggle / Colab)**
+<br>
 sudo apt-get update
+<br>
 sudo apt-get install -y tesseract-ocr
 
 The script already points to the correct path for Linux:
