@@ -12,7 +12,8 @@ The script processes a video file frame by frame, applies preprocessing (graysca
 ## ⚙️ Installation
 
 1. **Clone the repository**
-```bash git clone https://github.com/your-username/video-ocr-extraction.git
+```bash
+git clone https://github.com/your-username/video-ocr-extraction.git
 
 2. **Install dependencies**
    pip install -r requirements.txt
