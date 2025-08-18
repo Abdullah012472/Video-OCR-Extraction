@@ -12,20 +12,15 @@ The script processes a video file frame by frame, applies preprocessing (graysca
 ## ⚙️ Installation
 
 1. **Clone the repository**
-<br>
-git clone https://github.com/your-username/video-ocr-extraction.git
-<br>
-cd video-ocr-extraction
+   git clone https://github.com/your-username/video-ocr-extraction.git
 
-2. **Install dependencies**
-<br>
-pip install -r requirements.txt
+3. **Install dependencies**
+   pip install -r requirements.txt
 
-3. **Install Tesseract OCR (Linux / Kaggle / Colab)**
+4. **Install Tesseract OCR (Linux / Kaggle / Colab)**
+   sudo apt-get update
 <br>
-sudo apt-get update
-<br>
-sudo apt-get install -y tesseract-ocr
+   sudo apt-get install -y tesseract-ocr
 
 The script already points to the correct path for Linux:
 
