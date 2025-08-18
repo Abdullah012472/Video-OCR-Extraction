@@ -13,7 +13,7 @@ The script processes a video file frame by frame, applies preprocessing (graysca
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/video-ocr-extraction.git
+git clone https://github.com/Abdullah012472/Video-OCR-Extraction.git
 ```
 
 2. **Install dependencies**
@@ -30,13 +30,15 @@ The script already points to the correct path for Linux:
 ```bash
 pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 ```
-▶️ Usage
+## ▶️ Usage
 1. Place your video in the input directory and update the path in main.py:
-
+```bash
 video_path = '/kaggle/input/ai-video/ai video.mp4'
+```
 2. Run the script:
-
+```bash
 python main.py
+```
 📂 Output
 Extracted text is saved in:
 
