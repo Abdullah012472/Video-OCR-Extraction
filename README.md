@@ -33,7 +33,7 @@ video_path = '/kaggle/input/ai-video/ai video.mp4'
 ```
 2. Run the file:
 ```bash
-python main.py
+text-detector-from-video.ipynb
 ```
 📂 Output
 Extracted text is saved in:
