@@ -1,7 +1,3 @@
-# Video-OCR-Extraction
-Extract text from video frames using Tesseract OCR and OpenCV
-
-
 # 🎥 Video OCR Text Extraction
 
 This project extracts text from video frames using **OpenCV** and **Tesseract OCR**.  
